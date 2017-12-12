@@ -1,6 +1,16 @@
-/* Main Page */
-.main {
-
-    width: 250px;
-    color: #40DC40;
+body {
+    width: 100%;    
 }
+
+/* Main Page */
+.row {
+    padding-top: 20px;
+    padding-left: 200px;
+}
+
+/* Navbar */
+#left-nav {
+   background-color: navy;   
+   border-radius: 20px;
+}
+
