@@ -6,7 +6,7 @@
 
 /* Navbar */
 #left-nav {
-   background-color: #BFBFC8;    
+   background-color: #D7D7DE;    
    border-top-left-radius: 20px;
    border-bottom-left-radius: 20px;
    border-top-right-radius: none;
@@ -16,12 +16,12 @@
 
 a {
 	width: 200px;
-	color: white;
+	color: black;
 }
 
 li {
 	text-align: center;
-	color: white;
+	color: black;
 	padding-top: 10px;
 }
 
@@ -35,6 +35,9 @@ i {
 
 /* Main */
 #main {
-	background-color: #BFBFC8;   
+	text-align: center;
+	background-color: #D7D7DE;   
 	height: 500px;
 }
+
+
