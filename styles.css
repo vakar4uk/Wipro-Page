@@ -7,10 +7,13 @@
 .myTime{
 	color:black;
 	border: 1px solid black; width:30%; 
+	float: right;
+	margin-top: -442px;
 }
 table, th, td{
 	border: 1px solid black;
 	text-align: center;
+}
 .nav{
 	height:100%;
 	padding:10px;
@@ -18,4 +21,8 @@ table, th, td{
 }
 .nav li{
 	padding: 20px;
+}
+.left-navigation{
+	border: 1px solid black;
+	margin-right: 85%;
 }
