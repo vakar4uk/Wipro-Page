@@ -4,3 +4,10 @@
     width: 250px;
     color: #40DC40;
 }
+.myTime{
+	color:black;
+}
+table, th, td{
+	border: 1px solid black;
+	text-align: center;
+}
