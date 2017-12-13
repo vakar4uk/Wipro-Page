@@ -1,0 +1,40 @@
+/* Main Page */
+.row {
+    padding-top: 20px;
+    padding-left: 170px;
+}
+
+/* Navbar */
+#left-nav {
+   background-color: #BFBFC8;    
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+   border-top-right-radius: none;
+   border-bottom-right-radius: none;
+   width: 200px;
+}
+
+a {
+	width: 200px;
+	color: white;
+}
+
+li {
+	text-align: center;
+	color: white;
+	padding-top: 10px;
+}
+
+li:hover {
+	font-size: 1.1em;	
+}
+
+i {
+	margin-left: 5px;
+}
+
+/* Main */
+#main {
+	background-color: #BFBFC8;   
+	height: 500px;
+}
