@@ -34,6 +34,15 @@ li:hover {
 i {
 	margin-left: 5px;
 }
+/*Patch This Tomorrow*/
+h4{
+	text-align: center;
+	text-anchor: left;
+}
+
+h4 > i {
+	padding-left: 30px;
+}
 
 /* Main */
 #main {
@@ -41,5 +50,7 @@ i {
 	background-color: #D7D7DE;   
 	height: 500px;
 }
+
+
 
 
