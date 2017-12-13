@@ -10,7 +10,21 @@ body {
 
 /* Navbar */
 #left-nav {
-   background-color: navy;   
+   background-color: #666678;    
    border-radius: 20px;
 }
 
+a {
+	color: white;
+}
+
+li {
+	color: white;
+	padding-top: 10px;
+}
+
+/* Main */
+#main {
+	background-color: yellow;
+	height: 500px;
+}
