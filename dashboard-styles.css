@@ -23,10 +23,12 @@ li {
 	text-align: center;
 	color: black;
 	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 li:hover {
-	font-size: 1.1em;	
+	font-size: 1.2em;	
+	border-radius: 20px;
 }
 
 i {
