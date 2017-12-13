@@ -9,13 +9,31 @@
 	border: 4px solid black; width:30%; 
 	float: right;
 	margin-top: -442px;
-	background-color: #387819;
+	background-color: #6dc24b;
 	font-family: arial;
+}
+.myTravel{
+	border: 4px solid black; width:20%; 
+	float:right;
+	margin-right:400px;
+	margin-top: -442px;
+	font-family: arial;
+	background-color: #ffda29;
+}
+.myDeclaration{
+	border: 4px solid black; width:30%; 
+	float:right;
+	margin-right:675px;
+	margin-top: -455px;
+	font-family: arial;
+}
+.flightInfo{
+	border: 1px solid black; width:100%; 
 }
 .inputTime{
 	
 	text-align: center;
-	
+
 }
 .nav{
 	height:100%;
