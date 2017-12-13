@@ -25,6 +25,12 @@ li {
 
 /* Main */
 #main {
-	background-color: yellow;
+    text-align: center;
 	height: 500px;
+}
+
+
+.border{
+    border-radius: 20px;
+    border-style: solid;
 }
