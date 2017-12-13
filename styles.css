@@ -5,12 +5,14 @@
     color: #40DC40;
 }
 .myTime{
-	color:black;
-	border: 1px solid black; width:30%; 
+	color:white;
+	border: 4px solid black; width:30%; 
 	float: right;
 	margin-top: -442px;
+	background-color: #387819;
+	
 }
-table, th, td{
+.inputTime{
 	border: 1px solid black;
 	text-align: center;
 }
