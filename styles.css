@@ -6,7 +6,7 @@
 }
 .myTime{
 	color:black;
-	border: 1px solid black;
+	border: 1px solid black; width:30%; 
 }
 table, th, td{
 	border: 1px solid black;
