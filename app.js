@@ -16,6 +16,11 @@ myApp.config(function ($routeProvider) {
         controller: 'mainController'
     })
 
+    .when('/othersetting', {
+        templateUrl: 'pages/othersetting.html',
+        css: 'css/other-styles.css',
+        controller: 'mainController'
+    })
 });
 
 myApp.controller('mainController', ['$scope','$routeParams','$route', '$location', function($scope,$routeParams, $route, $location) {

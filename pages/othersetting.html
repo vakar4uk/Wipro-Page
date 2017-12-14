@@ -1,0 +1,65 @@
+<div id="main" class="border">
+    <h3>Other Settings</h3>
+    <hr>
+    <p>Choose your Other Settings</p>
+
+    <form>
+    <div class="radio-buttons">
+        <label class="col-lg-4" for="always">Never notify
+                        <input id="never" type="radio" name="radio" value="never" ng-model="content">
+                        <span class="radio"></span>
+                    </label>
+        <label class="col-lg-4" for="always">Always notify
+                            <input id="always" type="radio" name="radio" value="always" ng-model="content">
+                            <span class="radio"></span>
+                        </label>
+        <label class="col-lg-4" for="always">Personalize
+                                <input id="personalize" type="radio" name="radio" ng-model="content">
+                                <span class="radio"></span>
+                            </label>
+    </div>
+    </form>
+    
+    <div ng-show="content == 'never' ">
+       <div id="message" class="alert alert-danger" role="alert">
+            You will not get emails or device notifications from myWipro.
+        </div>
+    </div>
+    
+    <div ng-show="content == 'always' ">
+       <div id="message" class="alert alert-info" role="alert">
+            You will contiue to get notifications from myWipro. How do you want to get them?
+        </div>
+        
+        <div>
+            <span class="tablet">
+                <i class="fa fa-tablet fa-5x col-lg-1" aria-hidden="true"></i>
+                <p class="device-options-text col-lg-10">To get device notification, please ensure you have installed myWorklist app
+                    on your device. For details, <a>download document.</a>
+                </p>
+                
+                <div class="checkboxes">
+                     <input type="checkbox" checked="checked">                    
+                </div>
+            </span>
+            <div class="space"></div>
+            <div class="device-separator"><hr></div>   
+            <span class="tablet">
+                <i class="fa fa-envelope fa-5x col-lg-1" aria-hidden="true"></i>
+                <p class="device-options-text col-lg-10">
+                    You will continue getting emails and/or device notifications as when triggered from myWipro.
+                </p>
+                
+                <div class="checkboxes">
+                     <input type="checkbox" checked="checked">                    
+                </div>
+            </span>           
+            
+        </div>  
+        
+        
+        
+    </div>
+
+    <p><a class="btn btn-primary btn-sm save" href="#" role="button">Save</a></p>
+</div>
