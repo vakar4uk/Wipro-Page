@@ -15,18 +15,16 @@ myApp.config(function ($routeProvider) {
          css: 'css/email-styles.css',
         controller: 'mainController'
     })
+    
+    .when('/othersettings', {
+        templateUrl: 'pages/othersettings.html',         
+        controller: 'mainController'
+    })
 
 });
 
 myApp.controller('mainController', ['$scope','$routeParams','$route', '$location', function($scope,$routeParams, $route, $location) {
 
-    $scope.$watch(function()
-  {
-    return ($route.current && $route.current.css) ? $route.current.css : 'styles.css';
-  }, 
-  function(value) 
-  {
-    $scope.css = value;
-  });
+    
 
 }]);
