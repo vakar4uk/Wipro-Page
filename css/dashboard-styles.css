@@ -1,11 +1,14 @@
+
 /*Patch This Tomorrow*/
 h4{
-	text-align: center;
-	text-anchor: left;
+	font-family: Arial;
+	padding-left: 200px; 
+	text-align: left;
 }
 
 h4 > i {
-	padding-left: 30px;
+	float: right;
+	padding-right: 200px;
 }
 
 /* Main */
