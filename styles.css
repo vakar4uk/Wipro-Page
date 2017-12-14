@@ -1,7 +1,10 @@
+/* Here go general styles (e.g. bacground color etc.) */
+
+
 /* Main Page */
 .row {
     padding-top: 20px;
-    padding-left: 170px;
+    padding-left: 200px;
 }
 
 /* Navbar */
@@ -34,17 +37,6 @@ li:hover {
 i {
 	margin-left: 5px;
 }
-/*Patch This Tomorrow*/
-h4{
-	font-family: Arial;
-	padding-left: 200px; 
-	text-align: left;
-}
-
-h4 > i {
-	float: right;
-	padding-right: 200px;
-}
 
 /* Main */
 #main {
@@ -53,9 +45,4 @@ h4 > i {
 	text-align: center;
 	background-color: #D7D7DE;   
 	height: 500px;
-	
 }
-
-
-
-
