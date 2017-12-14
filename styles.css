@@ -18,14 +18,12 @@
 	height:26.66%;
 }
 .myTravel{
-	border: 4px solid black; width:26.66%;  
+	border: 4px solid black; width:26.66%; 
 	float:right;
 	margin-top: -462px;
 	font-family: arial;
 	background-color: #ffda29;
-	
-	
-
+	height:100%;
 }
 .myDeclaration{
 	border: 4px solid black; width:30%; 
