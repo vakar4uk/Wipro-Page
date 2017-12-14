@@ -18,8 +18,15 @@ myApp.config(function ($routeProvider) {
 
 });
 
-myApp.controller('mainController', ['$scope', function($scope) {
+myApp.controller('mainController', ['$scope','$routeParams','$route', '$location', function($scope,$routeParams, $route, $location) {
 
-    
+    $scope.$watch(function()
+  {
+    return ($route.current && $route.current.css) ? $route.current.css : 'styles.css';
+  }, 
+  function(value) 
+  {
+    $scope.css = value;
+  });
 
 }]);
