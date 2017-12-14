@@ -14,7 +14,7 @@
                             <span class="radio"></span>
                         </label>
         <label class="col-lg-4" for="always">Personalize
-                                <input id="personalize" type="radio" name="radio" ng-model="content">
+                                <input id="personalize" type="radio" name="radio" value="personalize" ng-model="content">
                                 <span class="radio"></span>
                             </label>
     </div>
@@ -55,11 +55,37 @@
                 </div>
             </span>           
             
-        </div>  
-        
-        
-        
+        </div>     
+    </div>
+    
+     <div ng-show="content == 'personalize' ">
+         <div id="message" class="alert alert-success" role="alert">
+            You will get consolidated emails from myWipro in the frequency you have selected.
+        </div>
+         
+        <div class="col-lg-6">
+            <p>My Time</p><hr>
+            <p>Confluence</p><hr>
+            <p>Travel & GIMS</p><hr>
+            <p>Birthday Mail</p><hr>
+         </div>
+         
+         <div class="col-lg-6">
+            <span><div class="btn-group" dropdown is-open="status.isopen">
+  <button type="button" class="btn btn-primary dropdown-toggle" ng-disabled="disabled">
+    Button dropdown <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu">
+    <li><a href="#">Action</a></li>
+    <li><a href="#">Another action</a></li>
+    <li><a href="#">Something else here</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+</div></span>
+         </div>
+         
     </div>
 
-    <p><a class="btn btn-primary btn-sm save" href="#" role="button">Save</a></p>
+    <br><br><br><br><p><a class="btn btn-primary btn-sm save" href="#" role="button">Save</a></p>
 </div>
