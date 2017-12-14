@@ -1,16 +1,118 @@
-body {
-    width: 100%;    
-}
+/* Here go general styles (e.g. bacground color etc.) */
+
 
 /* Main Page */
 .row {
     padding-top: 20px;
-    padding-left: 200px;
+	padding-left: 200px;
+	border-radius: 5px,20px,20px;
 }
 
 /* Navbar */
 #left-nav {
-   background-color: navy;   
-   border-radius: 20px;
+   background-color: #D7D7DE;    
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+   border-top-right-radius: none;
+   border-bottom-right-radius: none;
+   width: 200px;
 }
 
+a {
+	width: 200px;
+	color: black;
+}
+
+li {
+	text-align: center;
+	color: black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+li:hover {
+	font-size: 1.2em;	
+	border-radius: 20px;
+}
+
+i {
+	margin-left: 5px;
+}
+
+/* Main */
+#main {
+	border-style: hidden;
+	border-radius: 5px,20px,20px;
+	font-family: Arial;
+	text-align: center;
+	background-color: #D7D7DE;  
+	
+}
+
+.container {
+	border-style: hidden;
+	border-radius: 5px,20px,20px;
+    height: 500px;
+}
+
+
+
+/*Patch This Tomorrow*/
+h4{
+	font-family: Arial;
+	padding-left: 200px; 
+	text-align: left;
+}
+
+h4 > i {
+	float: right;
+	padding-right: 200px;
+}
+
+/*-------------------*/
+/*Emails Settings*/
+
+#message {
+    margin-top: 35px;
+    margin-bottom: 40px;
+}
+
+.device-options-text {
+    margin-top: 10px;
+    margin-left: 0;
+}
+
+.device-options-text > a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.checkboxes > input {
+    margin-top: 15px;    
+}
+
+.fa-tablet{
+   padding-left: 25px;
+}
+.space {
+    position: relative;
+    padding-top: 33px;   
+}
+
+/* .save {
+    margin-right: 100px;
+    margin-top: 70px;
+} */
+
+.device-separator {    
+    margin-left: 20px;
+    width: 95%;        
+    border-color: black;    
+}
+
+.device-separator > hr {
+    height: 2px;
+    color: black;
+    border-color: darkblue;
+    background-color: black;
+}

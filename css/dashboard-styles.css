@@ -1,0 +1,12 @@
+
+/*Patch This Tomorrow*/
+h4{
+	font-family: Arial;
+	padding-left: 200px; 
+	text-align: left;
+}
+
+h4 > i {
+	float: right;
+	padding-right: 200px;
+}
