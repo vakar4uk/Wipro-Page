@@ -20,6 +20,11 @@ myApp.config(function ($routeProvider) {
         templateUrl: 'pages/othersettings.html',         
         controller: 'mainController'
     })
+    
+    .when('/theme', {
+        templateUrl: 'pages/theme.html',         
+        controller: 'mainController'
+    })
 
 });
 
