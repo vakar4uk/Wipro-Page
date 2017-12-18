@@ -4,8 +4,7 @@
 /* Main Page */
 .row {
     padding-top: 20px;
-	padding-left: 200px;
-	border-radius: 5px,20px,20px;
+    padding-left: 200px;
 }
 
 /* Navbar */
@@ -41,7 +40,6 @@ i {
 
 /* Main */
 #main {
-	border-style: hidden;
 	border-radius: 5px,20px,20px;
 	font-family: Arial;
 	text-align: center;
@@ -50,8 +48,6 @@ i {
 }
 
 .container {
-	border-style: hidden;
-	border-radius: 5px,20px,20px;
     height: 500px;
 }
 
@@ -100,7 +96,7 @@ h4 > i {
 }
 
 .save-personalize{
-    margin-right: 200px;
+    margin-right: 180px;
     margin-top:px;
 }
 
