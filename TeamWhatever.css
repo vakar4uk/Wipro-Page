@@ -26,9 +26,10 @@
 	border: 4px solid black; 
 	font-family: arial;
 	width:26.66%;
-	background-color:lightblue;
+	background-color: #0e3570;
 	position:fixed;
 	height:60%;
+	color:white;
 }
 .flightInfo{
 	 width:100%; 
@@ -48,6 +49,7 @@
 	background-color: #646363;
 	opacity: 1;
 	color:white;
+	font-family: arial;
 
 
 }
