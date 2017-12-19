@@ -100,6 +100,30 @@ h4 > i {
     padding-top: 33px;   
 }
 
+/*!!!---------------!!!!!*/
+/*Table*/
+
+table {
+    height: 250px;
+    text-align: center;
+    width: 90%;
+}
+
+td, th, tr {
+    font-weight: bold;
+    padding: 10px;  
+    border-color: transparent;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+/*Table*/
+/*!!!---------------!!!!!*/
+
+
+
 /* .save {
     margin-right: 100px;
     margin-top: 70px;
