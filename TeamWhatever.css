@@ -25,10 +25,10 @@
 .myDeclaration{
 	border: 4px solid black; 
 	font-family: arial;
-	width:26.66%;
 	background-color: #0e3570;
 	position:fixed;
-	height:60%;
+	height:200px;
+	width:500px;
 	color:white;
 }
 .flightInfo{
@@ -42,7 +42,7 @@
  width:120px;
 }
 .rightBox{
-	 width:190px; margin-left:120px;margin-top:-84px;
+	 width:190px; margin-left:220px;margin-top:-84px;
 }
 .appraisal{
 	border: 4px solid black; width:26.66%; position:fixed; height:60%;
