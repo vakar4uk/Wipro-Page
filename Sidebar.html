@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Sidebar</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        /*
+        Photo link credit::
+            Photo by Dana Tentis from Pexels 
+            https://www.pexels.com/photo/abstract-art-background-blue-370799/
+        */
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .collapse-bar {
+            position: fixed;
+            top: .55rem;
+            border-radius: 18px;
+            padding: 0.5em 0.6em;
+            background-color: #333333;
+            box-sizing: 0px 0px 3px #333333;
+            display: inline-block;
+            width: .25em;
+            height: 39.5em;
+        }
+
+        .collapse-bar:before {
+            content: '';
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
+            margin-right: -0.25em;
+            margin-left: -0.5em;
+            /* Adjusts for spacing */
+        }
+
+        .collapse-bar-b {
+            border-radius: 18px;
+            padding: 0.5em 0.6em;
+            background-color: #333333;
+            box-sizing: 0px 0px 3px #333333;
+            display: inline-block;
+            width: .25em;
+            height: 39.5em;
+        }
+
+        .collapse-bar-b:before {
+            content: '';
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
+            margin-right: -0.25em;
+            margin-left: -0.5em;
+            /* Adjusts for spacing */
+        }
+
+        .fa-chevron-left,
+        .fa-chevron-right {
+            color: #111111;
+            vertical-align: center;
+            align-content: center;
+        }
+
+        .collapse-bar:hover,
+        .collapse-bar-b:hover {
+            background-color: #111111;
+            border-width: 2px;
+            box-shadow: 0px 0px 2px #333333;
+        }
+
+        .collapse-bar:hover .fa-chevron-left,
+        .collapse-bar-b:hover .fa-chevron-right {
+
+            color: #333333;
+        }
+
+        .app {
+            display: inline-block;
+            border-radius: 10px;
+            padding: 0.5em 0.6em;
+            width: 11.5rem;
+        }
+
+        .app-block {
+            padding-left: 2rem;
+            padding-top: .2rem;
+        }
+
+        .app-f {
+            float: right;
+        }
+
+        body {
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-image: linear-gradient( rgba(0, 0, 0, 0.88),
+            rgba(0, 0, 0, 0.85)), url("background.png");
+        }
+
+        .b-space {
+            display: inline-block;
+            padding-bottom: 30rem;
+            padding-right: .3rem;
+            z-index: 2;
+        }
+
+        li a {
+            font-family: Arial;
+            display: block;
+            color: grey;
+            text-align: left;
+            padding-left: 1.5rem;
+            padding-top: .5rem;
+            padding-bottom: .5rem;
+            text-decoration: none;
+        }
+
+        .b {
+            font-family: Arial;
+
+            font-size: 80%;
+            opacity: .9;
+            display: block;
+            color: #f2f2f2;
+            padding-top: .5rem;
+            padding-bottom: .5rem;
+            text-decoration: none;
+        }
+
+        li a i {
+            padding-left: .5rem;
+        }
+
+        li a:hover {
+            background-color: #333333;
+        }
+
+        li b:hover {
+            background-color: #333333;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="b-space">
+            <ul>
+                <li><a style="padding-bottom: .2rem">FAVORITE APPS</i></a></li>
+                <li style="padding-left: 2rem; padding-top:.3rem; padding-bottom:.2rem">
+                    <span class="fa-stack fa-2x">
+                            <i class="fa fa-circle fa-stack-2x icon-background"style="color: #6dc24b"></i>
+                <i class="fa fa-clock-o fa-stack-1x favs" aria-hidden="true"style="color: #f2f2f2"></i> 
+                    </span>
+                    <span class="fa-stack fa-2x">
+                            <i class="fa fa-circle fa-stack-2x icon-background"style="color: #00a2e0"></i>
+                        <i class="fa fa-plane fa-stack-1x favs" aria-hidden="true"style=" color: #f2f2f2"></i> 
+                    </span>
+                    <span class="fa-stack fa-2x">
+                    <i class="fa fa-circle fa-stack-2x icon-background"style="color: #6dc24b"></i>
+                <i class="fa fa-calendar-check-o fa-stack-1x favs" aria-hidden="true"style=" color: #f2f2f2"></i> 
+            </span>
+
+
+                    <span class="fa-stack fa-2x">
+                        <i class="fa fa-circle fa-stack-2x icon-background"style="color: #0e3570"></i>
+            <i class="fa fa-list-alt fa-stack-1x favs" aria-hidden="true"style=" color: #f2f2f2"></i> 
+        </span>
+                </li>
+                <li style="padding-left: 2rem; padding-top:.3rem; padding-bottom:.2rem">
+                    </span>
+                    <span class="fa-stack fa-2x">
+                        <i class="fa fa-circle fa-stack-2x icon-background"style="color: #ffda29"></i>
+                    <i class="fa fa-podcast fa-stack-1x favs" aria-hidden="true"style=" color: #f2f2f2"></i> 
+                </span>
+                    <span class="fa-stack fa-2x">
+                        <i class="fa fa-circle fa-stack-2x icon-background"style="color: #0e3570"></i>
+                    <i class="fa fa-envelope-open fa-stack-1x favs" aria-hidden="true"style=" color: #f2f2f2"></i> 
+                </span>
+                    <span class="fa-stack fa-2x">
+                        <i class="fa fa-circle fa-stack-2x icon-background"style="color: #333333"></i>
+                    <i class="fa fa-plus fa-stack-1x favs" aria-hidden="true"style=" color: grey"></i> 
+                </span>
+                </li>
+
+                <li><a>PRODUCTIVITY <i class="fa fa-caret-right" aria-hidden="true"></i></a></li>
+                <li><a>CAREER <i class="fa fa-caret-right" aria-hidden="true"></i></a></li>
+                <li><a>FINANCE <i class="fa fa-caret-right" aria-hidden="true"></i></a></li>
+                <li><a>TRAVEL & EXPENSE <i class="fa fa-caret-right" aria-hidden="true"></i></a></li>
+                <li><a>REQUEST <i class="fa fa-caret-right" aria-hidden="true"></i></a></li>
+                <li><a>INFORMATION <i class="fa fa-caret-right" aria-hidden="true"></i></a></li>
+                <li><a>BUSINESS APPLICATION <i class="fa fa-caret-right" aria-hidden="true"></i></a></li>
+            </ul>
+
+        </div>
+        <div class="collapse-bar">
+            <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        </div>
+    </div>
+    <div class="sidebar">
+        <div class="b-space">
+            <ul>
+                <li><a style="padding-bottom: .2rem">FAVORITE APPS</i></a></li>
+                <li style="padding-left: 2rem; padding-top:.3rem; padding-bottom:.2rem">
+                    <span class="fa-stack fa-2x">
+                                <i class="fa fa-circle fa-stack-2x icon-background"style="color: #6dc24b"></i>
+                    <i class="fa fa-clock-o fa-stack-1x favs" aria-hidden="true"style="color: #f2f2f2"></i> 
+                        </span>
+                    <span class="fa-stack fa-2x">
+                                <i class="fa fa-circle fa-stack-2x icon-background"style="color: #00a2e0"></i>
+                            <i class="fa fa-plane fa-stack-1x favs" aria-hidden="true"style=" color: #f2f2f2"></i> 
+                        </span>
+                    <span class="fa-stack fa-2x">
+                        <i class="fa fa-circle fa-stack-2x icon-background"style="color: #6dc24b"></i>
+                    <i class="fa fa-calendar-check-o fa-stack-1x favs" aria-hidden="true"style=" color: #f2f2f2"></i> 
+                </span>
+
+
+                    <span class="fa-stack fa-2x">
+                            <i class="fa fa-circle fa-stack-2x icon-background"style="color: #0e3570"></i>
+                <i class="fa fa-list-alt fa-stack-1x favs" aria-hidden="true"style=" color: #f2f2f2"></i> 
+            </span>
+                </li>
+                <li style="padding-left: 2rem; padding-top:.3rem; padding-bottom:.2rem">
+                    </span>
+                    <span class="fa-stack fa-2x">
+                            <i class="fa fa-circle fa-stack-2x icon-background"style="color: #ffda29"></i>
+                        <i class="fa fa-podcast fa-stack-1x favs" aria-hidden="true"style=" color: #f2f2f2"></i> 
+                    </span>
+                    <span class="fa-stack fa-2x">
+                            <i class="fa fa-circle fa-stack-2x icon-background"style="color: #0e3570"></i>
+                        <i class="fa fa-envelope-open fa-stack-1x favs" aria-hidden="true"style=" color: #f2f2f2"></i> 
+                    </span>
+                    <span class="fa-stack fa-2x">
+                            <i class="fa fa-circle fa-stack-2x icon-background"style="color: #333333"></i>
+                        <i class="fa fa-plus fa-stack-1x favs" aria-hidden="true"style=" color: grey"></i> 
+                    </span>
+                </li>
+                <li><a>PRODUCTIVITY <i class="fa fa-caret-down" aria-hidden="true"></i></a></li>
+                <li>
+                    <div class="app-block">
+                        <a class="b app" style="background-color: #6dc24b;"><i class="fa fa-clock-o fa-lg" aria-hidden="true"style="padding-right: .25rem"></i>
+                    MY TIME 
+                    <span class="app-f">
+                    <i class="fa fa-star" aria-hidden="true"style="color: gold; padding-left .80rem"></i>                                        
+                    <i class="fa fa-heart" aria-hidden="true"style="color: #ef3341; padding-left .1rem"></i>                                         
+                    </span>
+                </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="app-block">
+                        <a class="b app" style="background-color: #0e3570;"><i class="fa fa-list-alt fa-lg" aria-hidden="true"style="padding-right: .25rem"></i>
+                    MY WORKLIST 
+                    <span class="app-f">
+                            
+                    <i class="fa fa-star" aria-hidden="true"style="color: gold;"></i>                                        
+                    <i class="fa fa-heart" aria-hidden="true"style="color: #ef3341; padding-left .1rem"></i>                                        
+                    </span></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="app-block">
+                        <a class="b app" style="background-color: #00a2e0;"><i class="fa fa-users fa-lg" aria-hidden="true"style="padding-right: .25rem"></i>
+                    MY DELEGATION 
+                    <span class="app-f">
+                            
+                    <i class="fa fa-star" aria-hidden="true"style="color: gold"></i>                                        
+                    <i class="fa fa-heart-o" aria-hidden="true"style="color: grey; padding-left .1rem"></i>                                        
+                    </span></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="app-block">
+                        <a class="b app" style="padding-bottom: .75rem; background-color: #6dc24b;"><i class="fa fa-calendar-check-o fa-lg" aria-hidden="true"style="padding-right: .25rem"></i>
+                    MY STATUS 
+                    <span class="app-f">                            
+                    <i class="fa fa-star" aria-hidden="true"style="color: gold; padding-left .80rem"></i>                                        
+                    <i class="fa fa-heart" aria-hidden="true"style="color: #ef3341; padding-left .1rem"></i>                                        
+                    </span></a>
+                    </div>
+                </li>
+                <li><a>CAREER <i class="fa fa-caret-right" aria-hidden="true"></i></a></li>
+                <li><a>FINANCE <i class="fa fa-caret-right" aria-hidden="true"></i></a></li>
+                <li><a>TRAVEL & EXPENSE <i class="fa fa-caret-right" aria-hidden="true"></i></a></li>
+                <li><a>REQUEST <i class="fa fa-caret-right" aria-hidden="true"></i></a></li>
+                <li><a>INFORMATION <i class="fa fa-caret-right" aria-hidden="true"></i></a></li>
+                <li><a>BUSINESS APPLICATION <i class="fa fa-caret-right" aria-hidden="true"></i></a></li>
+            </ul>
+
+        </div>
+
+    </div>
+    <div class="b-space">
+
+    </div>
+    <div class="collapse-bar-b">
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+    </div>
+</body>
+
+</html>
