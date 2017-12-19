@@ -118,7 +118,15 @@ h4 > i {
     background-color: black;
 }
 
+.drop{
+    margin-top: 15px;
+    margin-left: 230px;
+}
 
+.drop > button{
+    margin-top: 5px;
+    margin-left: 230px;
+}
 /*!!!----------------------!!!!*/
 /*Theme Color*/
 img {
