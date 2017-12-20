@@ -124,6 +124,10 @@ tr:nth-child(even) {
     background-color: #dddddd;
 }
 
+td >.btn {
+    border-radius: 30px;
+}
+
 /*Table*/
 /*!!!---------------!!!!!*/
 
