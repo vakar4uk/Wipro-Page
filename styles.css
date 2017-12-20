@@ -51,10 +51,6 @@ i {
 	/* background-color: #D7D7DE;   */	
 }
 
-#main > p {
-    padding: 1px;
-}
-
 .container {
 	border-style: hidden;
 	border-radius: 5px,20px,20px;
@@ -122,6 +118,10 @@ td, th, tr {
 
 tr:nth-child(even) {
     background-color: #dddddd;
+}
+
+.btn {
+    border-radius: 30px;
 }
 
 /*Table*/
