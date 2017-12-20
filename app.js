@@ -30,6 +30,8 @@ myApp.config(function ($routeProvider) {
 
 myApp.controller('mainController', ['$scope','$routeParams','$route', '$location', function($scope,$routeParams, $route, $location) {
 
-    
+     $scope.isActive = function (viewLocation) { 
+        return viewLocation === $location.path();
+    };
 
 }]);
