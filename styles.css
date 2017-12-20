@@ -62,12 +62,14 @@ i {
 h4{
 	font-family: Arial;
 	padding-left: 200px; 
+    padding-bottom: 10px;
 	text-align: left;
 }
 
 h4 > i {
 	float: right;
 	padding-right: 200px;
+    padding-bottom: 10px;
 }
 
 /*-------------------*/
