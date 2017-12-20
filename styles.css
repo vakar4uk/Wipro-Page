@@ -1,5 +1,7 @@
 /* Here go general styles (e.g. bacground color etc.) */
-
+html {
+    font-family: Arial;
+}
 
 /* Main Page */
 .row {
@@ -46,21 +48,24 @@ i {
 	font-family: Arial;
     text-align: center;
     background-color: #EEE; 
-	/* background-color: #D7D7DE;   */
-	
+	/* background-color: #D7D7DE;   */	
+}
+
+#main > p {
+    padding: 1px;
 }
 
 .container {
 	border-style: hidden;
 	border-radius: 5px,20px,20px;
-    height: 500px;
+    
 }
 
 
 
 /*Patch This Tomorrow*/
 h4{
-	font-family: Arial;
+	
 	padding-left: 200px; 
     padding-bottom: 10px;
 	text-align: left;
