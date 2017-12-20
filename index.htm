@@ -22,12 +22,12 @@
 <body>
     
     <header>
-        <div class="row">
+        <div class="row" ng-controller="mainController">
             <ul id="left-nav" class="nav nav-pills nav-stacked col-lg-2">
-                    <li role="presentation"><a href="#">Dashboard<i class="fa fa-home" aria-hidden="true"></i></a></li>
-                    <li role="presentation"><a href="#/email">Email Preferences<i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-                    <li role="presentation"><a href="#/theme">Theme Color<i class="fa fa-paint-brush" aria-hidden="true"></i></a></li>
-                    <li role="presentation"><a href="#/othersettings">Other Settings<i class="fa fa-cog" aria-hidden="true"></i></a></li>
+                    <li id="top-nav" ng-class="{ active: isActive('/')}" role="presentation"><a href="#">Dashboard<i class="fa fa-home" aria-hidden="true"></i></a></li>
+                    <li ng-class="{ active: isActive('/email')}" role="presentation"><a href="#/email">Email Preferences<i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+                    <li ng-class="{ active: isActive('/theme')}" role="presentation"><a href="#/theme">Theme Color<i class="fa fa-paint-brush" aria-hidden="true"></i></a></li>
+                    <li ng-class="{ active: isActive('/othersettings')}" id="bottom-nav" role="presentation"><a href="#/othersettings">Other Settings<i class="fa fa-cog" aria-hidden="true"></i></a></li>
             </ul>
 
             <div id="main" class="container col-lg-8">

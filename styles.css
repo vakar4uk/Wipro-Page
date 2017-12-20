@@ -28,13 +28,37 @@ a {
 li {
 	text-align: center;
 	color: black;
-	padding-top: 10px;
-	padding-bottom: 10px;
 }
+
+#left-nav > li {
+    padding-bottom: 5px;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+        text-decoration: none;
+        background-color: transparent !important;
+  }
 
 li:hover {
 	font-size: 1.2em;	
-	border-radius: 20px;
+	width: 200px;    
+    background-color: #eee;
+    color: black;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    background-color: #eee;    
+    color: black;
+}
+
+
+
+#top-nav {
+    border-top-left-radius: 20px;
+}
+
+#bottom-nav {
+    border-bottom-left-radius: 20px;
 }
 
 i {
