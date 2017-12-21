@@ -87,16 +87,16 @@ i {
 
 /*Patch This Tomorrow*/
 h4{
-	
+	font-size: 1.4em;
 	padding-left: 200px; 
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 	text-align: left;
 }
 
 h4 > i {
 	float: right;
 	padding-right: 200px;
-    padding-bottom: 10px;
+    padding-bottom: 12px;
 }
 
 /*-------------------*/
@@ -197,6 +197,14 @@ img {
     max-width: 100%;
     max-height: 100%;
 }
+
+/*
+.fa-toggle-off{
+    color: snow;
+}
+*/
+
 .fa-toggle-on{
+    font-size: 30px;
     color: #337ab7;
 }
