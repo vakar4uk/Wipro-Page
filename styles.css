@@ -169,9 +169,9 @@ td >.btn {
 }
 
 .device-separator > hr {
-    height: 2px;
+    height: .5px;
     color: black;
-    border-color: darkblue;
+/*    border-color: darkblue;*/
     background-color: black;
 }
 
