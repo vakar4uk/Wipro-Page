@@ -136,6 +136,7 @@ table {
     height: 235px;
     text-align: center;
     width: 90%;
+    margin-bottom: 20px;
 }
 
 td, th, tr {
@@ -150,6 +151,7 @@ tr:nth-child(even) {
 
 td >.btn {
     border-radius: 30px;
+    width: 150px;
 }
 
 /*Table*/
@@ -171,8 +173,13 @@ td >.btn {
 .device-separator > hr {
     height: .5px;
     color: black;
-/*    border-color: darkblue;*/
+    border-color: black;
     background-color: black;
+}
+
+hr {
+    border-top: 0.5px solid;
+    width: 95%;
 }
 
 .drop{
