@@ -4,6 +4,7 @@ html {
    
 }
 
+/*
 body {
      background-image: linear-gradient( rgba(0, 0, 0, 0.88),
             rgba(0, 0, 0, 0.85)), url("images/background.png");
@@ -13,19 +14,22 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+*/
 
 /* Main Page */
 .row {
     padding-top: 20px;
 	padding-left: 200px;
-	border-radius: 5px,20px,20px;
+/*	border-radius: 5px,20px,20px;*/
 }
 
 /* Navbar */
 #left-nav {
    background-color: #D7D7DE;    
+/*
    border-top-left-radius: 20px;
    border-bottom-left-radius: 20px;
+*/
    border-top-right-radius: none;
    border-bottom-right-radius: none;
    width: 200px;
