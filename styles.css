@@ -1,6 +1,17 @@
 /* Here go general styles (e.g. bacground color etc.) */
 html {
     font-family: Arial;
+   
+}
+
+body {
+     background-image: linear-gradient( rgba(0, 0, 0, 0.88),
+            rgba(0, 0, 0, 0.85)), url("images/background.png");
+
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 /* Main Page */
